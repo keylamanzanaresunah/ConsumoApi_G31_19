@@ -1,8 +1,8 @@
-var UrlGetSocios = 'http://localhost:90/G3_19/Controller/proveedores.php?op=Getsocios';
-var UrlPostSocios = 'http://localhost:90/G3_19/Controller/proveedores.php?op=Insertsocio';
-var UrlGetUno = 'http://localhost:90/G3_19/Controller/proveedores.php?op=Getsocio';
-var UrlPutSocio = 'http://localhost:90/G3_19/Controller/proveedores.php?op=Actualizarsocio';
-var UrlDeleteSocio = 'http://localhost:90/G3_19/Controller/proveedores.php?op=Deletesocio';
+var UrlGetSocios = 'http://localhost:90/G3_19/Socios/Controller/proveedores.php?op=Getsocios';
+var UrlPostSocios = 'http://localhost:90/G3_19/Socios/Controller/proveedores.php?op=Insertsocio';
+var UrlGetUno = 'http://localhost:90/G3_19/Socios/Controller/proveedores.php?op=Getsocio';
+var UrlPutSocio = 'http://localhost:90/G3_19/Socios/Controller/proveedores.php?op=Actualizarsocio';
+var UrlDeleteSocio = 'http://localhost:90/G3_19/Socios/Controller/proveedores.php?op=Deletesocio';
 
 $(document).ready(function () {
     Cargarsocios();
