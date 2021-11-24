@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 var UrlGetArtiulos = 'http://34.68.196.220:90/G3-19/controller/Articulos.php?op=GetArticulos';
 var UrlGetUno = 'http://34.68.196.220:90/G3-19/controller/Articulos.php?op=GetUno';
 var UrlPostArticulo = 'http://34.68.196.220:90/G3-19/controller/Articulos.php?op=InsertArticulo';
 var UrlUpdateArticulo = 'http://34.68.196.220:90/G3-19/controller/Articulos.php?op=update_articulo';
 var UrlDeleteArticulo = 'http://34.68.196.220:90/G3-19/controller/Articulos.php?op=Delete_articulo';
+=======
+var UrlGetArtiulos = 'http://34.68.196.220:90/G3_19/Articulos/controller/Articulos.php?op=GetArticulos';
+var UrlGetUno = 'http://34.68.196.220:90/G3_19/Articulos/controller/Articulos.php?op=GetUno';
+var UrlPostArticulo = 'http://34.68.196.220:90/G3_19/Articulos/controller/Articulos.php?op=InsertArticulo';
+var UrlUpdateArticulo = 'http://34.68.196.220:90/G3_19/Articulos/controller/Articulos.php?op=update_articulo';
+var UrlDeleteArticulo = 'http://34.68.196.220:90/G3_19/Articulos/controller/Articulos.php?op=Delete_articulo';
+>>>>>>> 05099f756b6c38bd06c2cffec3b8174b3e2ffa28
 
 $(document).ready(function () {
     CargarArticulos();
