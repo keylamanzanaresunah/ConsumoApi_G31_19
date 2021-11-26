@@ -9,7 +9,7 @@ $(document).ready(function () {
     CargarArticulos();
 });
 
-function CargarArticulos (){
+function CargarArticulos(){
     $.ajax({
         url: UrlGetArtiulos,
         type: 'GET',
@@ -42,14 +42,14 @@ function CargarArticulos (){
 
 function AgregarArticulo(){
 var datosarticulo ={
-        DESCRIPCION: $('#DESCRIPCION').val(),
-        UNIDAD: $('#UNIDAD').val(),
-        COSTO: $('#COSTO').val(),
-        PRECIO: $('#PRECIO').val(),
-        APLICA_ISV: $('#APLICA_ISV').val(),
-        PORCENTAJE_ISV: $('#PORCENTAJE_ISV').val(),
-        ESTADO: $('#ESTADO').val(),
-        ID: $('#ID').val()
+        DESCRIPCION:$('#DESCRIPCION').val(),
+        UNIDAD:$('#UNIDAD').val(),
+        COSTO:$('#COSTO').val(),
+        PRECIO:$('#PRECIO').val(),
+        APLICA_ISV:$('#APLICA_ISV').val(),
+        PORCENTAJE_ISV:$('#PORCENTAJE_ISV').val(),
+        ESTADO:$('#ESTADO').val(),
+        ID:$('#ID').val()
     };
     var datosarticulojson= JSON.stringify(datosarticulo);
     
@@ -70,7 +70,7 @@ var datosarticulo ={
 function CargarArticulo(IDarticulo){
     var datosarticulo= {
         ID_ma_articulos:IDarticulo
-    };
+    }
     var datosarticulojson= JSON.stringify(datosarticulo);
 
     $.ajax({

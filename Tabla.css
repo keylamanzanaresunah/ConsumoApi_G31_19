@@ -1,0 +1,16 @@
+
+h1{
+    text-align: center;
+}
+
+table{
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+th{
+    border: 2px solid black;
+}
+td{
+    border: 1.5px solid black;
+}
